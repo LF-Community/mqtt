@@ -1,0 +1,17 @@
+[package]
+name = "mqtt"
+version = "0.1.0"
+
+[properties]
+
+[lib]
+name = "mqtt"
+target = "C"
+platform = "Native"
+main_reactor = "./src/Main.lf"
+
+[lib.properties]
+cmake-include="./mqtt.cmake"
+
+
+[dependencies]

@@ -27,4 +27,4 @@ endif()
 find_library(PAHO_MQTT_C_LIBRARIES NAMES ${_PAHO_MQTT_C_LIB_NAME})
 
 include_directories(${PAHO_MQTT_C_INCLUDE_DIRS})
-target_link_libraries(${LF_MAIN_TARGET} PUBLIC ${PAHO_MQTT_C_LIBRARIES})
+target_link_libraries(${LF_MAIN_TARGET} PUBLIC ${PAHO_MQTT_C_LIB})

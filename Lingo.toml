@@ -8,7 +8,7 @@ version = "0.1.0"
 name = "mqtt"
 target = "C"
 platform = "Native"
-main_reactor = "./src/Main.lf"
+location = "./src/"
 
 [lib.properties]
 cmake-include="./mqtt.cmake"

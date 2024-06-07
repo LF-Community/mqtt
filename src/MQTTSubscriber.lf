@@ -36,7 +36,7 @@
  * @author Ravi Akella
  * @author Edward A. Lee
  */
-target C;
+target C
 
 preamble {=
   #ifndef MQTT_SUBSCRIBER_H
